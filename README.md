@@ -10,3 +10,5 @@ If you just want to save the HTML to download the images later use flag `--no-do
 
 Using flag `--use-html %path-to-file%`, where %path-to-file% is a HTML file obtained by `--save-html` or other means, will parse 
 the provided file instead of a URL.
+
+A proxy can be used by adding flag `--use-proxy %ip% %port%`, where %ip% is the IP of the proxy server and %port% is the port.
